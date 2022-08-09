@@ -4,7 +4,7 @@
 
 Name:     	   rbenv
 Version:  	   1.1.1
-Release:       2%{?dist}
+Release:	3%{?dist}
 Group: 	  	   Applications/System
 Summary:  	   The rbenv program for running multiple Ruby instances.
 #BuildArch: 	   noarch
@@ -84,6 +84,9 @@ echo "rbenv is installed in %{rubies_path}. Please install rbenv-ruby packages y
 #%{_datarootdir}/%{name}
 
 %changelog
+* Mon Aug  8 2022 Jeffrey Lau <jeffrey.lau@ribose.com> - 1.1.1-3
+- Re-sign package
+
 * Fri Jun 23 2017 Ronald Tse <ronald.tse@ribose.com> - 1.1.1
 - Update to 1.1.1.
 
@@ -96,4 +99,3 @@ echo "rbenv is installed in %{rubies_path}. Please install rbenv-ruby packages y
 
 * Wed Mar 19 2014 Guy Gershoni <guy@conchus.com> - 1-0.4.0
 - Initial version of the package
-
